@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap",
+  "version": "1.0.0",
+  "description": "Mock Strap",
+  "default": "responsive.html",
+  "scripts": {
+    "start": "parcel responsive.html",
+    "build": "parcel build responsive.html --dist-dir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Niklauzi/Bootstrap.git"
+  },
+  "author": "klaus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Niklauzi/Bootstrap/issues"
+  },
+  "homepage": "https://github.com/Niklauzi/Bootstrap#readme",
+  "dependencies": {
+    "parcel": "^2.8.0"
+  }
+}
